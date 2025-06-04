@@ -3,113 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/favicon-icons/color/apple.png" type="image/png">
-    <title>Site para Loja</title>
+    <title>Lojas Monteiro</title>
     <link rel="stylesheet" href="stylesite.css">
+    <link rel="shortcut icon" href="https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/favicon-icons/color/apple.png" type="image/x-icon">
 </head>
 <body>
-
     <header>
-        <h1>Minha Loja</h1>
+
+        <h1>Lojas Monteiro</h1>
 
         <nav>
-            
-            <ul class="nodecorationtex">
-            <li><a href="=#inicio">inicio</a>
-            <li><a href="=#Produtos">Produtos</a>
-            <li><a href="=#Categorias">Categorias</a>
-            <li><a href="=#Contato">Contato</a>
-
+            <ul id="inicio">
+                <li><a href="#Início">Início</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#Categorias">Categoria</a></li>
+                <li><a href="#Contato">Contato</a></li>
             </ul>
-        </nav>          
+        </nav>
 
-
-        <div class="busca">
-        <input type="text" name="Buscar" placeholder="Estou procurando por...   ">
-        <button type="button">Buscar</button>
+        <div class="buscar">
+            <input type="text" name="bscar" placeholder="Estouprocurando por...">
+            <button>Buscar</button>
         </div>
 
     </header>
-
+    
     <main>
 
-        <h2 id="bemvindo">Bem-vindo à nossa loja!</h2>
-            <img id="imagprincipal" src="https://img.cdndsgni.com/preview/10679358-m.jpg" alt="Imagem Moveis Simonetti">
+        <div class="principalmain">
+            <h2>Bem-vindo às Lojas Monteiro!</h2>
+            <img src="https://mediacdn.simonetti.com.br/media/weltpixel/owlcarouselslider/images/m/o/moveis-simonetti-ofertas-em-moveis-eletros-e-eletronicos-sao-joao-desktop.png" alt="Imagem Lojas Monteiro">
+        </div>
 
-        
-        <h2 id="categoo">Categorias:</h2>
-      
-            <ul id="catego">
-                <li><a id="cat" href="">Roupas</a>
-                <li><a id="cat" href="">Eletronicos</a>
-                <li><a id="cat" href="">Livros</a>
-                <li><a id="cat" href="">Acessorios</a>
-            </ul>
-            
-        
+        <h3>Categorias:</h3>
 
-        <h3 id="nossosprod">Produtos em Promoção!</h3><br>
+        <ul class="categoriasmain">
+            <li><a href="#Roupas">Roupas</a></li>
+            <li><a href="#Eletronicos">Eletronicos</a></li>
+            <li><a href="#livros">Livros</a></li>
+            <li><a href="Acessorios">Acessorios</a></li>
+        </ul>
 
-            <table border="1"
-             <tr>
-                    <th>Nome</th>
-                    <th>valor</th>
-                    <th>Foto</th>
-                </tr>
-            
-             <tr>
-                 <td>Camiseta</td>
-                 <td>R$49,90</td>
-                  <td><img src="https://placehold.co/425x190?text=produto" alt=""></td>
-                </tr>
+        <h4>Produtos em promoção!</h4>
+
+        <table id="tabelamain" border="1">
+
+            <tr>
+                <th>Nome</th>
+                <th>Valor</th>
+                <th>Foto</th>
+            </tr>
+
+            <tr>
+                <td>Camiseta</td>
+                <td>R$49,90</td>
+                <td><img src="https://placehold.co/425x190?text=produto" alt=""></td>
+            </tr>
             <tr>
                 <td>Fones de Ouvido</td>
                 <td>R$89,90</td>
                 <td><img src="https://placehold.co/425x190?text=produto" alt=""></td>
-                </tr>
+            </tr>
             <tr>
-                <td>Livro de HTMl</td>
-                <td>R$39,90</td>
+                <td>Livro HTML</td>
+                <td>R$49,90</td>
                 <td><img src="https://placehold.co/425x190?text=produto" alt=""></td>
-                </tr>
-            
-            </table>
+            </tr>
+
+
+        </table>
+
+        <h4>Fale Conosco!</h4>
+
+        <label for="nome">Nome:</label><br><br>
+        <input type="text" name="Nome" placeholder="Nome"><br><br>
+
+        <label for="email">E-mail:</label><br><br>
+        <input type="email" name="email" placeholder="E-mail"><br><br>
+
+        <label for="assunto">assunto:</label><br><br>
+        <input type="text" name="assunto" placeholder="Assunto"><br><br>
+
+        <label for="mensagem">Mensagem:</label><br><br>
+        <textarea name="mensagem" placeholder="Mensagem"></textarea><br><br>
+
+        <button>Enviar</button>
     </main>
-
-
-
-    
-
-    <h4>Fale Conosco</h4>
-    
-    <label for="Nome">Nome:</label><br>
-    <input type="text"placeholder="Nome"required><br><br> 
-
-    <label for="E-mail">E-mail:</label><br>
-    <input type="email" placeholder="E-mail"required><br><br>
-
-    <label for="text">Assunto:</label><br>
-    <input type="text"placeholder="Assunto"required><br><br>
-
-    <label for="">Mensagem:</label><br>
-    <textarea name="Mensagem" id="" placeholder="Mensagem"required></textarea><br><br>
-
-    <button>Enviar</button>
-
-
-    <hr>
 
     <footer>
 
-        
-            <ul>
-                <li><a href="=Instagram">Instagram</a>
-                <li><a href="=X">X</a>
-                <li><a href="=LinKedin">LinKedin</a>
-            </ul>
-            <p>© <em>Minha Loja. Todos os Direitos Reservados.</em></p>
+        <ul id="categoriasfooter">
+            <li><a href="=instagram.com">Instagram</a></li>
+            <li><a href="x.com">X</a></li>
+            <li><a href="LinKedin.com">LinKedin</a></li>
+        </ul>
+
+        <p><em>©Minha Loja. Todos os Direitos Reservados.</em></p>
 
     </footer>
-    
 </body>
 </html>
