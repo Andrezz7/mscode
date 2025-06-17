@@ -3,13 +3,12 @@ function calcular(operador) {
     const num2 = parseFloat(document.getElementById('num2').value);
     const resultadoInput = document.getElementById('resultado');
 
-    // Verifica se os valores são válidos
     if (isNaN(num1) || isNaN(num2)) {
         resultadoInput.value = "Preencha os dois números!";
         return;
     }
 
-    // Fazer o cálculo
+      // Fazer o cálculo
     let resultado;
     if (operador === '+') {
         resultado = num1 + num2;
@@ -17,6 +16,6 @@ function calcular(operador) {
         resultado = num1 - num2;
     }
 
-    // Exibe o resultado no input final
+       // Exibe o resultado
     resultadoInput.value = resultado;
 }

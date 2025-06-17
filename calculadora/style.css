@@ -3,4 +3,46 @@
     font-size: 20px;
 }
 
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+}
+
+.numeroum {
+    border-radius: 10px;
+    border-color: red;
+    
+}
+
+.numerodois {
+    border-radius: 10px;
+    border-color: red;
+}
+
+.resultadoo {
+    border-radius: 10px;
+    border-color: red;
+}
+
+button#botaoo {
+    color: black;
+    background-color: white;
+    font-size: 32px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-color: red;
+}
+
+.botoesdemaisemenos {
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+
 

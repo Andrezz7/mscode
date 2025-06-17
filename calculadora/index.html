@@ -5,20 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/530/530157.png" type="image/x-icon">
 </head>
 <body>
     <div class="numerosdeentrada">
-        <label for="num1">1º Número:</label><br>
+        <label for="num1"><strong>1º Número:</strong></label><br>
         <input class="numeroum" type="number" id="num1" placeholder="Número"><br><br>
-        <label for="num2">2º Número:</label><br>
-        <input type="number" id="num2" placeholder="Número"><br><br>
+        <label for="num2"><strong>2º Número:</strong></label><br>
+        <input class="numerodois" type="number" id="num2" placeholder="Número"><br><br>
     </div>
     
-        <button id="botaoo" onclick="calcular('+')">+</button>
-        <button id="botaoo" onclick="calcular('-')">-</button><br><br>
+        <div class="botoesdemaisemenos">
+            <button id="botaoo" onclick="calcular('+')">+</button>
+            <button id="botaoo" onclick="calcular('-')">-</button><br><br>
+        </div>
 
-    <label for="resultado">Resultado:</label><br>
-    <input type="text" id="resultado" readonly>
+    <label for="resultado"><strong>Resultado:</strong></label><br>
+    <input class="resultadoo" type="text" id="resultado" placeholder="Resultado..." readonly>
 
     <script src="index.js"></script>
 </body>
